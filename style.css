@@ -1,0 +1,287 @@
+body {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  font-family:roboto, sans-serif;
+  margin: 0;
+  background-color: rgb(167, 166, 166);
+}
+nav {
+  width: 100%;
+  background-color: rgb(2, 2, 83);
+  display: flex;
+  height: 8vh;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.mycap{
+  color: rgb(31, 245, 31);
+}
+ul {
+  display: flex;
+}
+li {
+  padding: 0 20px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.end {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+figure{
+  display: flex;
+  justify-content: center;
+padding: 0px 100px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.submenu{
+  display: none;
+}
+.submenu :hover{
+  width: fit-content;
+background-color: green ;
+}
+.end ul li:hover .submenu{
+  display: flex;
+position: absolute;
+padding-left:10px ;
+}
+.end ul li:hover .submenu ul{
+  background-color: rgb(2, 2, 83);
+  display: flex;
+  margin: 10px;
+  line-height: 40px;
+  margin-left: -40px;
+  padding: 10px 20px;
+  position: absolute;
+  flex-direction: column;
+}
+.submenu2{
+  display: none;
+margin-top: -50PX;
+  margin-left: 134px;
+}
+.submenu2 :hover{
+  width: fit-content;
+background-color: green ;
+}
+.submenu ul li:hover .submenu2{
+  display: flex;
+position: absolute;
+padding-left:10px ;
+}
+.submenu ul li:hover .submenu2 ul{
+ background-color: rgb(2, 2, 83);
+  display: flex;
+  margin: 10px;
+  line-height: 40px;
+  margin-left: -40px;
+  padding: 10px 20px;
+  position: absolute;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+main {
+  /* position: absolute; */
+  color: white;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr;
+  grid-template-rows: 0.1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.one {
+  background-color:rgb(255, 255, 255);
+}
+textarea{
+  position: relative;
+  font-family:roboto, sans-serif;
+  border: none;
+  outline: none;
+  resize: none;
+  border-radius: 0%;
+  padding: 10px;
+}
+.one .down{
+  margin-bottom: 10px;
+  align-items: center;
+  display: flex;
+  color: black;
+  margin-top: 0px;
+}
+i{
+  padding: 0 10px;
+}
+ .post{
+  font-weight: 500;
+  display: flex;
+  margin-left: 330px;
+background-color: rgb(2, 2, 83);
+color: white;
+height: 5vh;
+align-items: center;
+  font-style: normal;
+}
+
+
+
+.two {
+  grid-row: span 2;
+  background-color: white;
+  
+}
+
+#fa{
+  /* background-color: black; */
+padding-top: 15px;
+}
+.three {
+  grid-row: span 3;
+  background-color: pink;
+}
+.last{
+  width: 100%;
+  padding: 10px;
+}
+div h3{
+display: flex;
+justify-content: center;
+/* padding-top: 10px; */
+border-radius: 20px;
+color: white;
+height: 5vh;
+align-items: center;
+  width: 50%;
+  background-color: blue;
+}
+
+.ad{
+  /* padding-top: 10px; */
+  background-color: blue;
+  display: flex;
+width: 70%;
+border-radius: 20px;
+height: 5vh;
+justify-content: center;
+align-items: center;
+color: white;
+font-weight: 500;
+}
+
+.four {
+  background-color: white;
+  grid-row: span 2;
+  line-height: 15px;
+  padding: 5px;
+  height: fit-content;
+  
+}
+.prof{
+  
+  line-height: 1px;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+.prof img{
+  width: 15%;
+  margin-top: 5px;
+}
+.prof div{
+  width: 100%;
+  padding-left: 10px;
+  line-height: 4px;
+  color: rgb(2, 2, 83);
+}
+.prof .nel{
+
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+.prof small, .mar , .text, .hello, .date{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(46, 46, 63);
+}
+ .mar{
+  width: 30%;
+  /* padding-left: 100px; */
+  font-size: small;
+}
+.hello{
+  padding-left: 25px;
+font-size: 15px;
+font-weight: 500;
+}
+.pos {
+  width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.text {
+  width: 45%;
+  font-weight: 450;
+  font-size: small;
+  display: flex;
+  align-content: center;
+}
+
+.five {
+  background-color: rgb(255, 255, 255);
+  /* height: fit-content; */
+}
+
+.fiver{
+  line-height: 1px;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  color: rgb(2, 2, 83);
+  padding-left: 10px;
+}
+
+.pixel{
+
+  font-size: 15px;
+  font-weight: bold;
+ padding: 10px;
+  width: 100%;
+}
+.date{
+  padding-left: 230px;
+  font-size: small;
+}
+
+
+@media screen and (max-width:421px) {
+  main{
+    grid-template-columns: 1fr;
+  }
+  ul{
+    display: none;
+  }
+  nav{
+    width: 1000px;
+  }
+ 
+}
